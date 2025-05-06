@@ -2,6 +2,46 @@
 
 This repository contains Power BI dashboards and data transformation scripts to analyze credit card customer behavior and financial transactions on a weekly and quarterly basis. The project combines raw CSV files, SQL preprocessing, and Power BI visualizations with DAX measures to generate actionable insights.
 
+
+## 📊 Dashboard Overview
+
+### 📁 1. Financial Dashboard - **Transaction Focused**
+This dashboard includes:
+
+- **Revenue Analysis:**
+  - Quarterly Revenue & Transactions
+  - Revenue by Card Type (Blue, Silver, Gold, Platinum)
+  - Revenue by Expenditure Type (Food, Fuel, Travel, etc.)
+  - Payment Usage Method: Swipe, Online, Chip
+- **Financial Metrics:**
+  - Annual Fees
+  - Interest Earned
+
+### 👤 2. Financial Dashboard - **Customer Focused**
+This dashboard highlights:
+
+- **Demographic Segmentation:**
+  - Revenue by Age Group, Gender, Education Level, Marital Status
+  - Top 5 States by Revenue
+- **Credit Score Summary (CSS)**
+- **Income Group Distribution**
+- **Salary Group Analysis**
+
+---
+
+## 🧭 Interactive Features
+
+- **Tree Map Filters:**  
+  Tree maps are implemented to act as filters across multiple visuals. When a segment (e.g., card type or state) is selected in the tree map, the entire dashboard dynamically updates to reflect filtered insights.
+
+---
+
+## 📌 Tools & Technologies
+
+- **Power BI** – Dashboard creation, DAX measures, filtering
+- **SQL** – Initial data preparation and transformation
+- **CSV Files** – Raw input for customer and transaction data
+
 ---
 
 ## 📁 Files Included
@@ -99,47 +139,6 @@ SELECT * FROM cust_add
       [Previous_Week_Revenue]
   )
   ```
-
----
-
-## 📊 Dashboard Overview
-
-### 📁 1. Financial Dashboard - **Transaction Focused**
-This dashboard includes:
-
-- **Revenue Analysis:**
-  - Quarterly Revenue & Transactions
-  - Revenue by Card Type (Blue, Silver, Gold, Platinum)
-  - Revenue by Expenditure Type (Food, Fuel, Travel, etc.)
-  - Payment Usage Method: Swipe, Online, Chip
-- **Financial Metrics:**
-  - Annual Fees
-  - Interest Earned
-
-### 👤 2. Financial Dashboard - **Customer Focused**
-This dashboard highlights:
-
-- **Demographic Segmentation:**
-  - Revenue by Age Group, Gender, Education Level, Marital Status
-  - Top 5 States by Revenue
-- **Credit Score Summary (CSS)**
-- **Income Group Distribution**
-- **Salary Group Analysis**
-
----
-
-## 🧭 Interactive Features
-
-- **Tree Map Filters:**  
-  Tree maps are implemented to act as filters across multiple visuals. When a segment (e.g., card type or state) is selected in the tree map, the entire dashboard dynamically updates to reflect filtered insights.
-
----
-
-## 📌 Tools & Technologies
-
-- **Power BI** – Dashboard creation, DAX measures, filtering
-- **SQL** – Initial data preparation and transformation
-- **CSV Files** – Raw input for customer and transaction data
 
 ---
 
