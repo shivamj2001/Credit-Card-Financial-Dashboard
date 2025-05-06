@@ -7,7 +7,7 @@ This repository contains Power BI dashboards and data transformation scripts to 
 
 ### 📁 1. Financial Dashboard - **Transaction Focused**
 
-![Uploading image.png…]()
+![Dashboard Preview](./transaction_dashboard.jpg)
 
 This dashboard includes:
 
@@ -21,6 +21,9 @@ This dashboard includes:
   - Interest Earned
 
 ### 👤 2. Financial Dashboard - **Customer Focused**
+
+![Dashboard Preview](./customer_dashboard.jpg)
+
 This dashboard highlights:
 
 - **Demographic Segmentation:**
