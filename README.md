@@ -6,6 +6,9 @@ This repository contains Power BI dashboards and data transformation scripts to 
 ## 📊 Dashboard Overview
 
 ### 📁 1. Financial Dashboard - **Transaction Focused**
+
+[Credit-Card-Financial-Dashboard](./Financial Dashboard Transaction.pdf)
+
 This dashboard includes:
 
 - **Revenue Analysis:**
