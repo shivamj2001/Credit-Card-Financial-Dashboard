@@ -7,7 +7,7 @@ This repository contains Power BI dashboards and data transformation scripts to 
 
 ### 📁 1. Financial Dashboard - **Transaction Focused**
 
-[Financial Dashboard Transaction](./Financial Dashboard Transaction.pdf)
+![Uploading image.png…]()
 
 This dashboard includes:
 
